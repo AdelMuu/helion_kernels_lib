@@ -11,24 +11,24 @@
     ]
   ],
   "l2_groupings": [
-    2
+    4
   ],
   "range_unroll_factors": [
-    0,
-    2
+    1,
+    0
   ],
   "range_warp_specializes": [],
   "range_multi_buffers": [
     false,
-    false
+    true
   ],
   "range_flattens": [
-    false,
+    null,
     true
   ],
   "load_eviction_policies": [
-    "first",
-    "first"
+    "",
+    "last"
   ],
   "num_warps": 8,
   "num_stages": 5,
